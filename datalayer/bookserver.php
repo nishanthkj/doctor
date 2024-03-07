@@ -3,7 +3,7 @@
 $errors=array();
 include ('server.php');
 
-$mysqli = new mysqli("localhost","root","","sourcecodester_doctordb");
+$mysqli = new mysqli("localhost","root","","registration");
 
 if ($mysqli -> connect_errno) {
   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
